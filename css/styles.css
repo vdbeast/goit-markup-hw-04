@@ -193,6 +193,22 @@ button{
 
 .features-item {}
 
+.features-icon-link {
+    width: 264px;
+    height: 112px;
+    border-radius: 4px;
+    background-color: #F4F4FD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.features-icon {
+    width: 64px;
+    height: 64px;
+}
+
 .features-subtitle {
     font-weight: 500;
     font-size: 20px;
