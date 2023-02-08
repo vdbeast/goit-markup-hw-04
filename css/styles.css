@@ -151,6 +151,8 @@ button{
 /*======================ORDER========================*/
 .order {
     background-color:var(--background-color-navy);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+    background-size: cover;
     padding-top: 188px;
     padding-bottom: 188px;
 }
@@ -336,6 +338,10 @@ button{
 
 .team-soc-link:is(:hover, :focus) {
     background-color: #404BBF;
+}
+
+.team-soc-icon {
+    fill: #F4F4FD;
 }
 
 /*======================CUSTOMERS========================*/
@@ -539,4 +545,8 @@ button{
 
 .footer-soc-link:is(:hover, :focus) {
     background-color: #31D0AA;
+}
+
+.footer-soc-icon{
+    fill: #F4F4FD;
 }
