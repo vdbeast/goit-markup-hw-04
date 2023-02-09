@@ -82,6 +82,7 @@ button{
     padding-top: 24px;
     padding-bottom: 24px;
     border-bottom: 1px solid #E7E9FC;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-navigation {
@@ -183,6 +184,8 @@ button{
     padding: 16px 32px;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 
 .order-btn:is(:hover, :focus) {
@@ -298,6 +301,8 @@ button{
     align-items: center;
     gap: 8px;
     background-color: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-subtitle {
@@ -441,6 +446,7 @@ button{
 .speciality-btn:is(:hover, :focus) {
     background-color: #404BBF;
     color: #FFFFFF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .speciality-list {
@@ -461,6 +467,7 @@ button{
 .speciality-wrap {
     padding: 32px 16px;
     border: 1px solid #E7E9FC;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .speciality-subtitle {
