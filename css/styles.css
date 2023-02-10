@@ -154,6 +154,7 @@ button{
     background-color:var(--background-color-navy);
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
     background-size: cover;
+    min-width: 1440px;
     padding-top: 188px;
     padding-bottom: 188px;
 }
@@ -460,6 +461,10 @@ button{
     width: calc(100%-48px)/3;
 }
 
+.speciality-item:is(:hover){
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
 .speciality-link {}
 
 .speciality-img {}
@@ -467,8 +472,9 @@ button{
 .speciality-wrap {
     padding: 32px 16px;
     border: 1px solid #E7E9FC;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
+
+
 
 .speciality-subtitle {
     font-weight: 500;
